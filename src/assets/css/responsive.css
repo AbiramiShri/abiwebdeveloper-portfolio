@@ -1,0 +1,25 @@
+@media (max-width: 1199px) and (min-width:993px) {}
+
+
+@media (max-width: 992px) and (min-width:768px) {
+  section#home .text {
+    font-size: 18pt;
+    text-align: center;
+  }
+
+  .social {
+    z-index: 1019;
+  }
+}
+
+@media (max-width: 768px) and (min-width:320px) {
+  section#home .text {
+    font-size: 18pt;
+    text-align: center;
+  }
+
+  .social {
+    z-index: 1019;
+  }
+
+}
