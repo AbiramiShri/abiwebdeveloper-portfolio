@@ -39,13 +39,13 @@ const Hero = () => {
         {/* Content Layer */}
         <Row className="heroSection justify-content-center align-items-center flex-row-reverse flex-sm-row">
           <Col md={5} xs={12}>
-            <h1>Hello, I'm Abi</h1>
-            <p>
+            <h2>Hello, I'm Abi</h2>
+            <h1 className="my-3">
               <Typewriter />
-            </p>
+            </h1>
 
             <div
-              className="button page-link page-link-click"
+              className="button page-link page-link-click px-3"
               data-dest="projects"
               onClick={handleScroll}>
               View my work <ArrowDownwardIcon />

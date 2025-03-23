@@ -17,12 +17,7 @@ const Typewriter = () => {
     };
   }, []);
 
-  return (
-    <span
-      ref={textRef}
-      style={{color: '#00def3', fontSize: '24px', fontWeight: 'bold'}}
-    />
-  );
+  return <span ref={textRef} style={{color: '#00def3', fontWeight: 'bold'}} />;
 };
 
 export default Typewriter;
